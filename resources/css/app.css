@@ -1,4 +1,15 @@
-@import 'tailwindcss';
+/* @import 'tailwindcss'; */
+/* Import Bootstrap */
+@import './bootstrap.min.css';
+
+/* Import Font Awesome */
+@import './font-awesome/css/font-awesome.css';
+
+/* Import Animate.css */
+@import './animate.css';
+
+/* Import Custom Style */
+@import './style.css';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
